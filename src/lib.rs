@@ -1,7 +1,12 @@
+// As far as I can see, the API here won't change. Will fix if this ever gets stabilised!
+#![allow(unstable_name_collisions)]
+
+use itertools::Itertools;
 use uuid::Uuid;
 
-pub const ZERO: &str = "UwU";
-pub const ONE: &str = "OwO";
+pub const ZERO: &str = "uwu";
+pub const ONE: &str = "owo";
+pub const HYPHEN: &str = "rawr xd";
 
 #[derive(Copy, Clone, Eq, Hash, PartialOrd, PartialEq)]
 pub struct UwuId {
@@ -29,6 +34,7 @@ impl ToString for UwuId {
                 1 => ONE,
                 _ => unreachable!(),
             })
+            .intersperse(" ")
             .collect::<String>();
 
         let f2 = (0..16_u16)
@@ -38,6 +44,7 @@ impl ToString for UwuId {
                 1 => ONE,
                 _ => unreachable!(),
             })
+            .intersperse(" ")
             .collect::<String>();
 
         let f3 = (0..16_u16)
@@ -47,6 +54,7 @@ impl ToString for UwuId {
                 1 => ONE,
                 _ => unreachable!(),
             })
+            .intersperse(" ")
             .collect::<String>();
 
         let f45 = self
@@ -63,13 +71,26 @@ impl ToString for UwuId {
                         1 => ONE,
                         _ => unreachable!(),
                     })
+                    .intersperse(" ")
                     .collect::<String>()
             })
+            .intersperse(" ".to_string())
             .collect::<Vec<String>>();
 
-        let (f4, f5) = f45.split_at(2);
+        let (f4, f5) = f45.split_at(3);
 
-        format!("{}-{}-{}-{}-{}", f1, f2, f3, f4.join(""), f5.join(""))
+        format!(
+            "{} {} {} {} {} {} {} {} {}",
+            f1,
+            HYPHEN,
+            f2,
+            HYPHEN,
+            f3,
+            HYPHEN,
+            f4.join(""),
+            HYPHEN,
+            f5[1..].join("")
+        )
     }
 }
 
