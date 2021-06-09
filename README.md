@@ -11,7 +11,7 @@ let v4_uuid = UwuId::from(Uuid::from_str("4f38bdb9-c368-4630-bb80-8b3eb918a9c8")
 println!("{}", v4_uuid.to_string())
 ```
 ```
-UwUOwOUwUUwUOwOOwOOwOOwOUwUUwUOwOOwOOwOUwUUwUUwUOwOUwUOwOOwOOwOOwOUwUOwOOwOUwUOwOOwOOwOUwUUwUOwO-OwOOwOUwUUwUUwUUwUOwOOwOUwUOwOOwOUwUOwOUwUUwUUwU-UwUOwOUwUUwUUwUOwOOwOUwUUwUUwUOwOOwOUwUUwUUwUUwU-OwOUwUOwOOwOOwOUwUOwOOwOOwOUwUUwUUwUUwUUwUUwUUwU-OwOUwUUwUUwUOwOUwUOwOOwOUwUUwUOwOOwOOwOOwOOwOUwUOwOUwUOwOOwOOwOUwUUwUOwOUwUUwUUwUOwOOwOUwUUwUUwUOwOUwUOwOUwUOwOUwUUwUOwOOwOOwOUwUUwUOwOUwUUwUUwU
+uwu owo uwu uwu owo owo owo owo uwu uwu owo owo owo uwu uwu uwu owo uwu owo owo owo owo uwu owo owo uwu owo owo owo uwu uwu owo rawr xd owo owo uwu uwu uwu uwu owo owo uwu owo owo uwu owo uwu uwu uwu rawr xd uwu owo uwu uwu uwu owo owo uwu uwu uwu owo owo uwu uwu uwu uwu rawr xd owo uwu owo owo owo uwu owo owo owo uwu uwu uwu uwu uwu uwu uwu rawr xd owo uwu uwu uwu owo uwu owo owo uwu uwu owo owo owo owo owo uwu owo uwu owo owo owo uwu uwu owo uwu uwu uwu owo owo uwu uwu uwu owo uwu owo uwu owo uwu uwu owo owo owo uwu uwu owo uwu uwu uwu
 ```
 
 ## FAQ
